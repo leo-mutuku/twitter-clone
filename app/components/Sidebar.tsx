@@ -1,12 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { type } from 'os'
-import { BiHomeCircle, BiUser,BiEnvelope} from 'react-icons/bi'
+import {BiCodeCurly, BiUser,BiEnvelope} from 'react-icons/bi'
 import CodeWithLeo from "../../public/images/codewithleo.png"
             
-import { BsBell,BsBookmark, BsThreeDots} from 'react-icons/bs'
+import {BsJournalCode, BsBell,BsBookmark, BsThreeDots} from 'react-icons/bs'
 import { HiOutlineHashtag} from 'react-icons/hi'
-import { HiEnvelope } from 'react-icons/hi2'
+import {RiKakaoTalkLine} from 'react-icons/ri'
 
 const NAVIGATION_ITEMS = [
   // {
@@ -14,19 +13,19 @@ const NAVIGATION_ITEMS = [
   //   icon:BsTwitter
   // },
   {
-    title:"CodeHive",
-    icon:BiHomeCircle
+    title:"Club of Colder",
+    icon:BsJournalCode
   },
   {
     title:"Explorer",
     icon:HiOutlineHashtag
   },
   {
-    title:"Proects",
+    title:"Projects",
     icon:BsBell
   },
   {
-    title:"Languages",
+    title:"Frameworks",
     icon:BiEnvelope
   },
   {
@@ -65,7 +64,7 @@ const Sidebar = () => {
       px-4 py-2 text-2xl
       text-center hover:bg-opacity-70 transition
       duration-200'>
-        Tweet
+        <div>Talk to..</div>
       </button>
       </div>
       <div className='flex flex-col-reverse'>
@@ -79,10 +78,10 @@ const Sidebar = () => {
 
         </div>
         <div className='text-xs'>
-          <div>club of Colder</div>
-          <div>@clubofcolderom</div>
+          <div>CodeWithLeo</div>
+          <div>@yourname</div>
         </div>
-        <div><BsThreeDots/></div>
+        <div><BsThreeDots size={25}/></div>
       </button>
       </div>
     </section>
