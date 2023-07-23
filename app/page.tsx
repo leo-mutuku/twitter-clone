@@ -18,7 +18,7 @@ export default function Home() {
             <div className="w-10 h-10 bg-white rounded-full"></div>
             <div className="flex flex-col  ">
               <div className="bg-black">
-                <button className="hover:bg-white/50 rounded-full"><input className="bg-black/80 border-none outline-none w-full" type="text" placeholder="Everyone"/></button>
+                <button className="hover:bg-white/50 rounded-full"><input className="bg-black/80 border-none outline-none w-fullgit " type="text" placeholder="Everyone"/></button>
               </div>
               <div className="border-b[0.5px] border-gray/30">
                 <input
