@@ -1,4 +1,5 @@
 import Sidebar from "./components/Sidebar";
+import CodeWithLeo from "../public/images/codewithleo.png"
 
 export default function Home() {
   return (
