@@ -17,6 +17,7 @@ module.exports = {
       primary:"rgb(29,155,240)",
       black:"black",
       white:"white",
+      gray:"#2e2e2e"
     },
   },
   plugins: [],
