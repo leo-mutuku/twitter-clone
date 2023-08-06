@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import profile from '../../profile.jpg'
-import {BsGit, BsLinkedin} from 'react-icons/bs'
-import {AiFillTwitterCircle} from 'react-icons/ai'
+import {BsGit, BsLinkedin, BsYoutube} from 'react-icons/bs'
+import {AiFillTwitterCircle, AiFillCode} from 'react-icons/ai'
 import Link from 'next/link'
 
 const profile_icons_size = 25;
@@ -19,9 +19,28 @@ const TopSection = () => {
         <div className='flex flex-row items-center justify-center gap-6 py-3'>
             <div><Link href="https://github.com/leo-mutuku/leo-mutuku" target='_blank' className=''>
                      <BsGit size={profile_icons_size}/>
-                </Link></div>
-            <div><BsLinkedin size={profile_icons_size}/></div>
-            <div><AiFillTwitterCircle size={profile_icons_size} /></div>
+                </Link>
+            </div>
+            <div>
+                <Link href="https://www.linkedin.com/in/leonard-m-a38b58b9/" target='_blank' className=''>
+                    <BsLinkedin size={profile_icons_size}/>
+                </Link>
+            </div>
+            <div>
+                <Link href="https://github.com/leo-mutuku/leo-mutuku" target='_blank' className=''>
+                    <AiFillTwitterCircle size={profile_icons_size} />
+                </Link>
+            </div>
+            <div>
+                <Link href="https://www.youtube.com/channel/UCVPUNt_l7VUHsOnHCbKeNcg" target='_blank' className=''>
+                    <BsYoutube size={profile_icons_size} />
+                </Link>
+            </div>
+            <div>
+                <Link href="https://github.com/leo-mutuku/leo-mutuku" target='_blank' className=''>
+                    <AiFillCode size={profile_icons_size} />
+                </Link>
+            </div>
         </div>
     </div>
   )
