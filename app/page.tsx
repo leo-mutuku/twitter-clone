@@ -1,11 +1,25 @@
-import Sidebar from "./components/Sidebar";
+
 import CodeWithLeo from "../public/images/codewithleo.png"
+import TopSection from "./components/TopSection/TopSection";
 
 export default function Home() {
   return (
-    <main className="w-full h-full flex relative bg-black">
-      <div className="max-w-screen-xl w-full h-full relative flex flex-row items-start text-white">
-        <div className="w-1/4">
+    <main className="w-full text-white bg-black">
+       
+       {/* top section */}
+
+       <div className="mt-8"> 
+            <TopSection />
+       </div>
+       <div className="items-center justify-center  flex flex-row ">
+          <div className="py-8">Profile coming short .. </div>
+       </div>
+       <div></div>
+       <div> </div>
+
+       
+       
+        {/* <div className="w-1/4">
           <Sidebar />
         </div>
         <div
@@ -31,8 +45,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="1/4 flex flex-row py-4">right section</div>
-      </div>
+      <div className="1/4 flex flex-row py-4">right section</div> */}
     </main>
   );
 }
