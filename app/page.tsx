@@ -1,5 +1,6 @@
 
 import CodeWithLeo from "../public/images/codewithleo.png"
+import MenuSection from "./components/MenuSection/MenuSection";
 import TopSection from "./components/TopSection/TopSection";
 
 export default function Home() {
@@ -7,13 +8,15 @@ export default function Home() {
     <main className="w-full text-white bg-black">
        
        {/* top section */}
-
        <div className="mt-8"> 
             <TopSection />
        </div>
-       <div className="items-center justify-center  flex flex-row ">
-          <div className="py-8">Profile coming short .. </div>
+
+       {/* Menu Section */}
+       <div>
+          <MenuSection />
        </div>
+       
        <div></div>
        <div> </div>
 

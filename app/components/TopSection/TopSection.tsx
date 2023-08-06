@@ -3,6 +3,7 @@ import React from 'react'
 import profile from '../../profile.jpg'
 import {BsGit, BsLinkedin} from 'react-icons/bs'
 import {AiFillTwitterCircle} from 'react-icons/ai'
+import Link from 'next/link'
 
 const profile_icons_size = 25;
 const TopSection = () => {
@@ -16,7 +17,9 @@ const TopSection = () => {
             <div className='font-sm'>Software Developer</div>
         </div>
         <div className='flex flex-row items-center justify-center gap-6 py-3'>
-            <div><BsGit size={profile_icons_size}/></div>
+            <div><Link href="https://github.com/leo-mutuku/leo-mutuku" target='_blank' className=''>
+                     <BsGit size={profile_icons_size}/>
+                </Link></div>
             <div><BsLinkedin size={profile_icons_size}/></div>
             <div><AiFillTwitterCircle size={profile_icons_size} /></div>
         </div>
