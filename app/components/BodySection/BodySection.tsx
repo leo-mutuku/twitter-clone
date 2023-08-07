@@ -2,11 +2,13 @@ import React from 'react'
 
 const BodySection = () => {
   return (
-    <div className='flex flex-row py-4 items-center justify-center gap-8'>
-        <div>Persinal Info</div>
-        <div> Experience</div>
-        <div>Top Skills</div>
-        <div>Reviews</div>
+    <div className='flex flex-col py-4 items-center justify-center gap-8 '>
+        <div className='rounded-sm px-6 w-[75%] items-start justify-between' style={{"border":"solid 1px gray", "borderRadius":"10px" 
+    }}>
+            <div className='py-6  underline'><span className='text-underline'>About me </span></div>
+            <p className=''>Leo Mutuku is a results-driven Developer with a passion for leveraging innovative strategies to drive brand growth and customer engagement in the ever-evolving digital landscape.</p>
+
+        </div>
     </div>
 
   )

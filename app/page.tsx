@@ -1,5 +1,6 @@
 
 import CodeWithLeo from "../public/images/codewithleo.png"
+import BodySection from "./components/BodySection/BodySection";
 import MenuSection from "./components/MenuSection/MenuSection";
 import TopSection from "./components/TopSection/TopSection";
 
@@ -17,7 +18,9 @@ export default function Home() {
           <MenuSection />
        </div>
        
-       <div></div>
+       <div>
+          <BodySection />
+       </div>
        <div> </div>
 
        

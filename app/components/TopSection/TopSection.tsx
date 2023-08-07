@@ -3,14 +3,20 @@ import React from 'react'
 import profile from '../../profile.jpg'
 import {BsGit, BsLinkedin, BsYoutube} from 'react-icons/bs'
 import {AiFillTwitterCircle, AiFillCode} from 'react-icons/ai'
+import { RxVercelLogo } from 'react-icons/rx'
 import Link from 'next/link'
 
 const profile_icons_size = 25;
 const TopSection = () => {
   return (
     <div className='flex flex-col items-center justify-center'>
-        <div className='border-solid radius  py-3'>
+        <div className='border-solid radius  py-3 flex flex-row'>
             <Image className=" border-r-black rounded-full " src={profile} alt='profile_picture' />
+            <div className='flex flex-row' style={{"position":"relative", "color":"cornflowerblue;","marginTop":"40%","marginLeft":"-10%"}}>
+                <div>< RxVercelLogo size={profile_icons_size} /> </div>
+                <div>Vercel</div>
+            </div>
+
         </div>
         <div className='flex flex-col items-center justify-center py-3'>
             <div className='font-family ui-serif Georgia Cambria '>Leo Mutuku</div>
