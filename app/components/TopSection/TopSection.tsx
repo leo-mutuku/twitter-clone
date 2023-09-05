@@ -19,7 +19,7 @@ const TopSection = () => {
 
         </div>
         <div className='flex flex-col items-center justify-center py-3'>
-            <div className='font-family ui-serif Georgia Cambria '>Leo Mutuku</div>
+            <div className='font-family ui-serif Georgia Cambria '>Leonard Mutuku</div>
             <div className='font-sm'>Software Developer</div>
         </div>
         <div className='flex flex-row items-center justify-center gap-6 py-3'>
@@ -35,16 +35,6 @@ const TopSection = () => {
             <div>
                 <Link href="https://github.com/leo-mutuku/leo-mutuku" target='_blank' className=''>
                     <AiFillTwitterCircle size={profile_icons_size} />
-                </Link>
-            </div>
-            <div>
-                <Link href="https://www.youtube.com/channel/UCVPUNt_l7VUHsOnHCbKeNcg" target='_blank' className=''>
-                    <BsYoutube size={profile_icons_size} />
-                </Link>
-            </div>
-            <div>
-                <Link href="https://github.com/leo-mutuku/leo-mutuku" target='_blank' className=''>
-                    <AiFillCode size={profile_icons_size} />
                 </Link>
             </div>
         </div>
