@@ -1,6 +1,6 @@
 
 import CodeWithLeo from "../public/images/codewithleo.png"
-import BodySection from "./components/BodySection/BodySection";
+import BodySection from "./components/BodySection/PersonalProfile";
 import MenuSection from "./components/MenuSection/MenuSection";
 import TopSection from "./components/TopSection/TopSection";
 
