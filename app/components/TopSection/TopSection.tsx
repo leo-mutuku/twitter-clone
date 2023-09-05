@@ -12,11 +12,6 @@ const TopSection = () => {
     <div className='flex flex-col items-center justify-center'>
         <div className='border-solid radius  py-3 flex flex-row'>
             <Image className=" border-r-black rounded-full " src={profile} alt='profile_picture' />
-            <div className='flex flex-row' style={{"position":"relative", "color":"cornflowerblue;","marginTop":"40%","marginLeft":"-10%"}}>
-                <div>< RxVercelLogo size={profile_icons_size} /> </div>
-                <div>Vercel</div>
-            </div>
-
         </div>
         <div className='flex flex-col items-center justify-center py-3'>
             <div className='font-family ui-serif Georgia Cambria '>Leonard Mutuku</div>
