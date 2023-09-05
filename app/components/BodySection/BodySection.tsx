@@ -10,7 +10,7 @@ const BodySection = () => {
         <div className="py-6  underline">
           <span className="text-underline">About me </span>
         </div>
-        <p className="">
+        <p>
           I have over 8years of experience in total. For the last 5years I've
           worked as a full-time software developer on Nodejs, React, and Spring
           Boot. I believe in getting the work done in the shortest time possible
